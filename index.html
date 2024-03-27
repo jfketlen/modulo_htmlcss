@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Animais</title>
+<style>
+  table {
+    width: 90vw;
+    border-collapse: collapse;
+    margin: 0; 
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  .animal-image {
+    width: 300px;
+    height: 200px; 
+  }
+
+  #conteudo-adicional a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; 
+  }
+
+  #conteudo-adicional a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icone-facebook img,
+  .icone-twitter img,
+  .icone-instagram img {
+    width: 20px; 
+    height: 20px; 
+  }
+
+  #redes-sociais {
+    margin-top: 20px;
+  }
+
+  #redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+  }
+</style>
+</head>
+<body>
+
+<div id= "animais" class="conteudo-adicional">
+    <h1>Animais</h1>
+</div>
+<nav>
+  <ul>
+    <li><a href="#mamifero">Mamífero</a></li>
+    <li><a href="#reptil">Réptil</a></li>
+    <li><a href="#ave">Ave</a></li>
+  </ul>
+</nav>
+<br>
+
+<h1 id="mamifero">Mamífero</h1>
+<table>
+  <tr>
+    <td><b>Animal</b></td>
+    <td><b>Descrição</b></td>
+  </tr>
+  <tr>
+    <td><img src="cachorro.jpg" alt="" class="animal-image"></td>
+    <td><p>Os <mark>mamíferos</mark> têm como características marcantes a presença de pelos e de glândulas mamárias.</p>
+    </td>
+  </tr>
+</table>
+
+<h1 id="reptil">Réptil</h1>
+<table>
+  <tr>
+    <td><b>Animal</b></td>
+    <td><b>Descrição</b></td>
+  </tr>
+  <tr>
+    <td><img src="tartaruga.jpg" alt="" class="animal-image"></td>
+    <td>Os <mark>répteis</mark> são animais que possuem como características principais o corpo com poucas glândulas</td>
+  </tr>
+</table>
+
+<h1 id="ave">Ave</h1>
+<table>
+  <tr>
+    <td><b>Animal</b></td>
+    <td><b>Descrição</b></td>
+  </tr>
+  <tr>
+    <td><img src="papagaio.jpg" alt="" class="animal-image"></td>
+    <td>As <mark>aves</mark> são animais vertebrados que se destacam pela presença de suas penas, uma característica exclusiva desse grupo</td>
+  </tr>
+</table>
+
+<div id="conteudo-adicional" class="conteudo-adicional">
+  <div id="redes-sociais">
+    <a href="https://www.facebook.com" target="_blank" class="icone-facebook">
+        <span>
+            <img src="facebook.jpeg" alt="Ícone do Facebook">
+        </span>
+        <span>Facebook</span>
+    </a>
+    <a href="https://twitter.com/" target="_blank" class="icone-twitter">
+        <span>
+            <img src="twitter.jpeg" alt="Ícone do Twitter">
+        </span>
+        <span>Twitter</span>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" class="icone-instagram">
+        <span>
+            <img src="instagram.jpg" alt="Ícone do Instagram">
+        </span>
+        <span>Instagram</span>
+    </a>
+  </div>
+</div>
+</body>
+</html>
